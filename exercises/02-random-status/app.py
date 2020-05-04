@@ -7,6 +7,6 @@ if response.status_code == 404:
 elif response.status_code == 503:
     print("Unavailable right now")
 elif response.status_code == 200:
-    print("Everything went perfect")
+    print("Everythign went perfect")
 elif response.status_code == 400:
     print("Something is wrong on the request params")
